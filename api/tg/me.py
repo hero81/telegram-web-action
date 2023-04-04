@@ -20,7 +20,7 @@ class Me(Tg):
 
     def test(self):
         try:
-            peer = self.client.get_input_entity('@cfg168')  # 可更换用户名
+            peer = self.client.get_input_entity('@KKAA2222')  # 可更换用户名
             peer = utils.get_input_peer(peer)
             print(peer)
         except BaseException as err:
