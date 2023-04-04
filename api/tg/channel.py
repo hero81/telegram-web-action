@@ -12,7 +12,7 @@ class Channel(Tg):
     def test(self):
         # myself = self.client.get_me()
         # print(myself)
-        result = self.client(JoinChannelRequest(channel="https://t.me/yifeng666"))
+        result = self.client(JoinChannelRequest(channel="https://t.me/fffffx2"))
         print(result.stringify())
 
     def joinGroup(self, usernName=None):
